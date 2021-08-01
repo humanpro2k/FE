@@ -1,0 +1,77 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background: #14425d;
+  min-height: 5rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.header .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  min-height: 5rem;
+}
+.header-logo {
+  font-size: 3rem;
+  color: #f3f3f3;
+  padding: 0.5rem;
+  background: red;
+}
+.header-main {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.header-main-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: row;
+}
+.header-main-item {
+  margin-left: 1rem;
+}
+.header-main-link {
+  color: #f2f2f2;
+  padding: 1.5rem 0;
+}
+
+/*# sourceMappingURL=style.css.map */

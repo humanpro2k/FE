@@ -1,0 +1,34 @@
+.header{
+  background: #14425d;
+  min-height: 5rem;
+  padding: 0 1rem;
+  @include flexbox(flex-start, center);
+  .container{
+    @include flexbox(flex-start, center);
+    min-height: 5rem;
+  }
+  &-logo{
+    font-size: 3rem;
+    color: #f3f3f3;
+    padding: 0.5rem;
+    background: red;
+  }
+  &-main{
+    height: inherit;
+    @include flexbox(space-between);
+
+    flex-grow: 1;
+  }
+  &-main-menu{
+    @include flexbox();
+
+  }
+  &-main-item{
+    margin-left: 1rem;
+
+  }
+  &-main-link{
+    color: #f2f2f2;
+    padding: 1.5rem 0;
+  }
+}
